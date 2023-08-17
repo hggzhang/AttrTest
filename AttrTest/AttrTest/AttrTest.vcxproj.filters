@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Entity.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Comp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AttrComp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Modify.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AttrModify.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Binder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AttrBinder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AttrModifyFix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Attr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AttrBinderLambda.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AttrModifyIncByAttr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Affix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartPointerHeader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AffixFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AttrModifyOverride.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Entity.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Comp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AttrComp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Attr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Modify.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AttrModify.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Binder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AttrBinder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AttrModifyFix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AttrBinderTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AttrModifyIncByAttr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Affix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AffixFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AttrModifyOverride.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
