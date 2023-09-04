@@ -1,6 +1,7 @@
 #include "Attr.h"
 #include "AttrModify.h"
 #include "AttrBinder.h"
+#include "AttrUtil.h"
 
 void Attr::AddBinder(SP(AttrBinder) binder)
 {
@@ -38,7 +39,6 @@ void Attr::UpdMod()
     data.more = 0;
     data.override = 0;
     data.bOverride = false;
-    data.raw = 0;
     data.final = 0;
 
     for (const auto& mod : mods)
@@ -46,12 +46,7 @@ void Attr::UpdMod()
         mod->Modify(data);
     }
 
-    data.raw += data.fix;
-    data.raw *= (1 + data.more / 100.f);
-    data.raw *= (1 + data.total / 100.f);
-    data.raw *= (1 + data.pct / 100.f);
-
-    data.final = data.bOverride ? data.override : data.raw;
+    data.final = AttrUtil::GetFinal(data);
 
     OnUpdMod();
 }

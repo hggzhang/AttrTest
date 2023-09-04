@@ -3,6 +3,7 @@
 #include "Entity.h"
 #include "AttrComp.h"
 #include "Attr.h"
+#include "AttrUtil.h"
 
 void AttrModifyIncByAttr::Modify(AttrData& data)
 {
@@ -15,7 +16,7 @@ void AttrModifyIncByAttr::Init()
 	{
 		if (target == from)
 			return;
-		int tmp = data.raw * (pct / 100.f);
+		int tmp = (AttrUtil::GetRawOverride(data)) * (pct / 100.f);
 		SetVal(tmp);
 	};
 

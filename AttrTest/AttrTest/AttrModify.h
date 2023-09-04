@@ -21,6 +21,8 @@ public:
 
     void SetVal(int in) 
     { 
+        if (v == in)
+            return;
         v = in; 
         Upd();
     }

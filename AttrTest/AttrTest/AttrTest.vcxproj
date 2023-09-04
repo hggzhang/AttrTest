@@ -29,6 +29,7 @@
     <ClInclude Include="AttrModifyFix.h" />
     <ClInclude Include="AttrModifyIncByAttr.h" />
     <ClInclude Include="AttrModifyOverride.h" />
+    <ClInclude Include="AttrUtil.h" />
     <ClInclude Include="Binder.h" />
     <ClInclude Include="Comp.h" />
     <ClInclude Include="define.h" />
@@ -48,6 +49,7 @@
     <ClCompile Include="AttrModifyFix.cpp" />
     <ClCompile Include="AttrModifyIncByAttr.cpp" />
     <ClCompile Include="AttrModifyOverride.cpp" />
+    <ClCompile Include="AttrUtil.cpp" />
     <ClCompile Include="Binder.cpp" />
     <ClCompile Include="Comp.cpp" />
     <ClCompile Include="Entity.cpp" />

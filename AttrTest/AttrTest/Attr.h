@@ -16,7 +16,6 @@ struct AttrData
 	int pct = 0;
 	int override = 0;
 	bool bOverride = false;
-	int raw = 0;
 	int final = 0;
 };
 
@@ -24,7 +23,6 @@ class Attr
 {
 public:
 	int GetVal() { return data.final; }
-	int GetRaw() { return data.raw; }
 
 	void AddBinder(SP(AttrBinder) binder);
 	void RemBinder(SP(AttrBinder) binder);
@@ -32,6 +30,11 @@ public:
 	void AddMod(SP(AttrModify) mod);
 	void RemMod(SP(AttrModify) mod);
 	void UpdMod();
+
+	const AttrData& GetAttr()
+	{
+		return data;
+	}
 	
 private:
 	std::vector<SP(AttrBinder)> binders;
